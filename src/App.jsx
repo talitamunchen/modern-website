@@ -1,5 +1,5 @@
 import styles from './style';
-import { BillingCard, BusinessCard, MainContent, Navbar, Stats } from './components';
+import { BillingCard, BusinessCard, MainContent, Navbar, Stats, Testimonials } from './components';
 
 function App() {
   return (
@@ -21,8 +21,7 @@ function App() {
           <Stats />
           <BusinessCard />
           <BillingCard />
-          Card 
-          Depoiments
+          <Testimonials />
           Clients
           CTA 
           Footer
