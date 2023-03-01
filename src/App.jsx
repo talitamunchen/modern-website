@@ -1,5 +1,5 @@
 import styles from './style';
-import { BusinessCard, MainContent, Navbar, Stats } from './components';
+import { BillingCard, BusinessCard, MainContent, Navbar, Stats } from './components';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <div className={`${styles.boxWidth}`}>
           <Stats />
           <BusinessCard />
-          Billing
+          <BillingCard />
           Card 
           Depoiments
           Clients
