@@ -5,7 +5,7 @@ import FeedbackCard from "./FeedbackCard"
 function Testimonials() {
   return (
     <section
-      id="testimonials"
+      id="clients"
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
     >
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] bottom-40 placeholder:rounded-full blue__gradient" />

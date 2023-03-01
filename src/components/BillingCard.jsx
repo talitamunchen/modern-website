@@ -3,7 +3,7 @@ import { apple, bill, google } from "../assets"
 
 function BillingCard() {
   return (
-    <section id="billing" className={layout.sectionReverse}>
+    <section id="product" className={layout.sectionReverse}>
       <div className={layout.sectionImgReverse}>
         <img
           src={bill}
