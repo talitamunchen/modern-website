@@ -1,5 +1,5 @@
 import styles from './style';
-import { MainContent, Navbar, Stats } from './components';
+import { BusinessCard, MainContent, Navbar, Stats } from './components';
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Stats />
-          Business
+          <BusinessCard />
           Billing
           Card 
           Depoiments
