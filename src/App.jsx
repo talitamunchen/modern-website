@@ -1,5 +1,5 @@
 import styles from './style';
-import { BillingCard, BusinessCard, MainContent, Navbar, Stats, Testimonials } from './components';
+import { BillingCard, BusinessCard, ClientsList, MainContent, Navbar, Stats, Testimonials } from './components';
 
 function App() {
   return (
@@ -22,9 +22,7 @@ function App() {
           <BusinessCard />
           <BillingCard />
           <Testimonials />
-          Clients
-          CTA 
-          Footer
+          <ClientsList />
         </div>
       </div>
     </div>

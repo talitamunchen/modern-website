@@ -4,6 +4,7 @@ import Stats from "./Stats";
 import BusinessCard from "./BusinessCard";
 import BillingCard from "./BillingCard";
 import Testimonials from "./Testimonials";
+import ClientsList from "./ClientsList";
 
 export {
   Navbar,
@@ -11,5 +12,6 @@ export {
   Stats,
   BusinessCard,
   BillingCard,
-  Testimonials
+  Testimonials,
+  ClientsList
 };
