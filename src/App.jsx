@@ -1,5 +1,5 @@
 import styles from './style';
-import { BillingCard, BusinessCard, ClientsList, MainContent, Navbar, Stats, Testimonials } from './components';
+import { BillingCard, BusinessCard, CallToActionCard, ClientsList, MainContent, Navbar, Stats, Testimonials } from './components';
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
           <BillingCard />
           <Testimonials />
           <ClientsList />
+          <CallToActionCard />
         </div>
       </div>
     </div>
