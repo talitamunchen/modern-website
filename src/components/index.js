@@ -6,6 +6,7 @@ import BillingCard from "./BillingCard";
 import Testimonials from "./Testimonials";
 import ClientsList from "./ClientsList";
 import CallToActionCard from "./CallToActionCard";
+import Footer from "./Footer";
 
 export {
   Navbar,
@@ -15,5 +16,6 @@ export {
   BillingCard,
   Testimonials,
   ClientsList,
-  CallToActionCard
+  CallToActionCard,
+  Footer
 };

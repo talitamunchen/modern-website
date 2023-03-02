@@ -1,5 +1,15 @@
-import styles from './style';
-import { BillingCard, BusinessCard, CallToActionCard, ClientsList, MainContent, Navbar, Stats, Testimonials } from './components';
+import styles from "./style"
+import {
+  BillingCard,
+  BusinessCard,
+  CallToActionCard,
+  ClientsList,
+  Footer,
+  MainContent,
+  Navbar,
+  Stats,
+  Testimonials,
+} from "./components"
 
 function App() {
   return (
@@ -24,10 +34,11 @@ function App() {
           <Testimonials />
           <ClientsList />
           <CallToActionCard />
+          <Footer />  
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
