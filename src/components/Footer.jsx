@@ -38,7 +38,7 @@ function Footer() {
                       index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                     }`}
                   >
-                    <a href={`#${link.name}`} onClick={sayHi}>
+                    <a href={`#${link.name}`} onClick={sayHi} data-testid={`${link.name}`}>
                       {link.name}
                     </a>
                   </li>

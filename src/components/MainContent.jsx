@@ -7,6 +7,7 @@ function MainContent() {
     <section
       id="home"
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      data-testid="main-content"
     >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}

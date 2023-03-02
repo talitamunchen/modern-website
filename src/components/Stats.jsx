@@ -5,6 +5,7 @@ function Stats() {
   return (
     <section
       className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}
+      data-testid="stats"
     >
       {stats.map((stat) => (
         <div

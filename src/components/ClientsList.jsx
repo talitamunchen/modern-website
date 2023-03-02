@@ -12,7 +12,7 @@ function ClientsList() {
           >
             <img
               src={client.logo}
-              alt="clientLogo"
+              alt="client-logo"
               className="sm:w-[192px] w-[100px] object-contain"
             />
           </div>
